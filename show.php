@@ -61,9 +61,9 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <?php while($Result = mysqli_fetch_array($res))
 {?>
     <tr>
-      <td><?php echo $Result['name'];?></td>
-      <td><?php echo $Result['comment'];?></td>
-      <td><?php echo $Result['link'];?></td>
+      <td><?php echo $Result['Name'];?></td>
+      <td><?php echo $Result['Comment'];?></td>
+      <td><?php echo $Result['Link'];?></td>
       <td>
         <form method="POST" action="delete.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
@@ -71,9 +71,9 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
         </form>
         <form method="POST" action="edit.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
-          <input type="hidden" name="name" value="<?php echo $Result['name']; ?>" />
-          <input type="hidden" name="comment" value="<?php echo $Result['comment']; ?>" />
-          <input type="hidden" name="link" value="<?php echo $Result['link']; ?>" />
+          <input type="hidden" name="name" value="<?php echo $Result['Name']; ?>" />
+          <input type="hidden" name="comment" value="<?php echo $Result['Comment']; ?>" />
+          <input type="hidden" name="link" value="<?php echo $Result['Link']; ?>" />
         <button type="submit" class="btn btn-warning" >Edit</button>
         </form>
       </td>
