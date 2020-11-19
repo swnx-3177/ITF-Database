@@ -42,7 +42,7 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 if ($done)
 {
-    header("Location: https://labitf2.azurewebsites.net/show.php");
+    header("Location: https://itfdatabase.azurewebsites.net/show.php");
     exit();
 }
 ?>
