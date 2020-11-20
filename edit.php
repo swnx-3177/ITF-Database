@@ -53,7 +53,7 @@ $conn->close();
           <br>
           <br>
         <div class="container">
-            <h1 class="display-1">LAB Database Update</h1>
+            <h1 class="display-4">Edit</h1>
         </div>
 
         <div class="container">
@@ -71,7 +71,7 @@ $conn->close();
                     <label for="Link">Link</label>
                     <input type="text" class="form-control" name = "link" id="idLink" placeholder="Enter Link" value=<?php echo $link;?>>
                   </div>
-                <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+                <button type="submit" class="btn btn-outline-primary mb-2">Confirm</button>
               </form>
         </div>
         
