@@ -1,4 +1,3 @@
-
 <html>
 
   <head>
@@ -15,7 +14,7 @@
   <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'databaselabitf.mysql.database.azure.com', 'filmzz@databaselabitf', 'film8844@', 'filmDATAB', 3306);
+mysqli_real_connect($conn, 'itf13112020.mysql.database.azure.com', 'sawarod@itf13112020', 'Sawyyy1827', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
