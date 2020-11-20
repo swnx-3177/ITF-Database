@@ -49,7 +49,7 @@
                     <label for="Link">Link</label>
                     <input type="text" class="form-control" name = "link" id="idLink" placeholder="Enter Link">
                   </div>
-                <button type="submit" class="btn btn-outline-primary mb-2">Confirm</button>
+                <button type="submit" class="btn btn-outline-primary mb-2"Next</button>
               </form>
         </div>
         
