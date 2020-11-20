@@ -30,9 +30,9 @@ $sql = "INSERT INTO guestbook (name , comment , link) VALUES ('$name', '$comment
 
 
 if (mysqli_query($conn, $sql)) {
-    echo ('<div class="container"><h1 class="display-1">OK!!</h1></div>');
+    echo ('<div class="container"><h1 class="display-4">Success</h1></div>');
     echo (' <form method="get" action="show.php">
-            <button type="submit" class="btn btn-success">Continue</button>
+            <button type="submit" class="btn btn-success">Next</button>
             </form>');
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
