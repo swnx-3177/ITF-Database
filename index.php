@@ -33,7 +33,7 @@
           <br>
           <br>
         <div class="container">
-            <h1 class="display-1">LAB Database Insert</h1>
+            <h1 class="display-4">Insert Data</h1>
         </div>
         <div class="container">
             <form action = "insert.php" method = "post" id="CommentForm" >
@@ -49,7 +49,7 @@
                     <label for="Link">Link</label>
                     <input type="text" class="form-control" name = "link" id="idLink" placeholder="Enter Link">
                   </div>
-                <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+                <button type="submit" class="btn btn-outline-primary mb-2">Confirm</button>
               </form>
         </div>
         
