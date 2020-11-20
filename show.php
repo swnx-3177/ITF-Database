@@ -43,13 +43,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
   <br>
   <br>
 <div class="container">
-<h1 class="display-1">LAB Database Show</h1>
+<h1 class="display-4">ITF DATABASE</h1>
 </div>
   
 <div class="container">
 <table class="table table-bordered">
   <thead>
-    <tr class="bg-success">
+    <tr class="text-light bg-dark">
       <th width="50"> <div align="center">Name</div></th>
       <th width="500"> <div align="center">Comment </div></th>
       <th width="100"> <div align="center">Link </div></th>
@@ -67,14 +67,14 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td>
         <form method="POST" action="delete.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
-        <button type="submit" class="btn btn-danger" >Delete</button>
+        <button type="submit" class="btn btn-outline-danger" >Delete</button>
         </form>
         <form method="POST" action="edit.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
           <input type="hidden" name="name" value="<?php echo $Result['Name']; ?>" />
           <input type="hidden" name="comment" value="<?php echo $Result['Comment']; ?>" />
           <input type="hidden" name="link" value="<?php echo $Result['Link']; ?>" />
-        <button type="submit" class="btn btn-warning" >Edit</button>
+        <button type="submit" "btn btn-outline-warning" >Edit</button>
         </form>
       </td>
     </tr>
